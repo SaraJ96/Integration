@@ -1,0 +1,23 @@
+1/4/2019 6:00:11 PM : Network Model Service Test Client is up and running...
+1/4/2019 6:00:11 PM : Result directory: ../Results
+1/4/2019 6:00:28 PM : Apply update method started.
+1/4/2019 6:00:31 PM : Apply update method finished. 
+Update result: Succeeded
+Message: Applying delta to network model successfully finished.
+GlobalId pairs:
+Client globalId: 0x00000001ffffffff	 - Server globalId: 0x0000000100000006
+Client globalId: 0x00000002ffffffff	 - Server globalId: 0x0000000200000006
+Client globalId: 0x00000003ffffffff	 - Server globalId: 0x0000000300000006
+Client globalId: 0x00000004ffffffff	 - Server globalId: 0x0000000400000004
+Client globalId: 0x00000005ffffffff	 - Server globalId: 0x0000000500000004
+Client globalId: 0x00000006ffffffff	 - Server globalId: 0x0000000600000006
+Client globalId: 0x00000007ffffffff	 - Server globalId: 0x0000000700000004
+
+2/2/2021 8:17:33 PM : Network Model Service Test Client is up and running...
+2/2/2021 8:17:33 PM : Result directory: ../Results
+2/2/2021 8:17:50 PM : Getting values method started.
+2/2/2021 8:17:50 PM : Failed to get model type code for DMS type: 0. Invalid DMS type
+2/2/2021 8:17:50 PM : Getting values method for entered id = 111 failed.
+	Failed to get model type code for DMS type: 0. Invalid DMS type
+2/2/2021 8:28:16 PM : Network Model Service Test Client is up and running...
+2/2/2021 8:28:16 PM : Result directory: ../Results

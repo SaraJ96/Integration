@@ -1,0 +1,58 @@
+﻿<delta id="0">
+  <operations>
+    <operation type="insert">
+      <ResourceDescriptions count="7">
+        <ResourceDescription>
+          <id gid="0x00000001ffffffff" type="TERMINAL" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="idTerminal" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000002ffffffff" type="REGULATINGCTRL" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="idRegulatingControl" />
+            <Property id="REGULATINGCTRL_DISCRETE" value="1" />
+            <Property id="REGULATINGCTRL_MODE" value="ReactivePower" />
+            <Property id="REGULATINGCTRL_MONITOREDPHASE" value="ABC" />
+            <Property id="REGULATINGCTRL_TARGETRANGE" value="123" />
+            <Property id="REGULATINGCTRL_TARGETVALUE" value="456" />
+            <Property id="REGULATINGCTRL_TERMINAL" value="0x00000001ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000003ffffffff" type="STATICVARCOMP" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="idStaticVarCompensator" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000004ffffffff" type="CONTROL" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="idControl" />
+            <Property id="CONTROL_REGULATINGCONDEQ" value="0x00000003ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000005ffffffff" type="REACTIVECAPABILITYCURVE" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="idReactiveCapabilityCurve" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000006ffffffff" type="SHUNTCOMP" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="idShuntCompensator" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000007ffffffff" type="SYNCHRONOUSMACHINE" />
+          <Properties>
+            <Property id="IDOBJ_MRID" value="idSynchronousMachine" />
+            <Property id="SYNCHRONOUSMACHINE_REACTIVECAPABILITYCURVE" value="0x00000005ffffffff" />
+          </Properties>
+        </ResourceDescription>
+      </ResourceDescriptions>
+    </operation>
+  </operations>
+</delta>
